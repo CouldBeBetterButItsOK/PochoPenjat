@@ -108,6 +108,7 @@ class Jugar_Partida : AppCompatActivity() {
         if(lletre in paraula){
             val tv = paraulaLO.findViewWithTag<TextView>(lletre)
             tv.visibility = View.VISIBLE
+            jugador.lletresCorrecte.add(lletre)
         }
     }
     fun senseAccents(input: Char): Char {
