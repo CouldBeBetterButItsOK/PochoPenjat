@@ -27,7 +27,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/penjatIV"
         android:layout_width="350dp"
         android:layout_height="416dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,20 +35,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/torn_jugador"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/penjat6" />
+        app:srcCompat="@drawable/penjat0" />
 
     <TableLayout
         android:id="@+id/tableLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toTopOf="@+id/imageButton3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/penjatIV"
         app:layout_constraintVertical_bias="1.0">
 
         <!-- Primera Fila -->
@@ -63,6 +63,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="A"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -72,6 +74,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="B"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -81,6 +85,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="C"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -90,6 +96,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="D"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -99,6 +107,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="E"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -108,6 +118,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="F"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -117,6 +129,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="G"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -126,6 +140,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="H"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -135,6 +151,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="I"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
         </TableRow>
 
@@ -150,6 +168,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="J"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -159,6 +179,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="K"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -168,6 +190,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="L"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -177,6 +201,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="M"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -186,6 +212,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="N"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -195,6 +223,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="O"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -204,6 +234,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="P"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -213,6 +245,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="Q"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -222,6 +256,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="R"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
         </TableRow>
 
@@ -237,6 +273,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="S"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -246,6 +284,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="T"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -255,6 +295,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="U"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -264,6 +306,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="V"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -273,6 +317,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="W"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -282,6 +328,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="X"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -291,6 +339,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="Y"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -300,6 +350,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="Z"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
 
             <TextView
@@ -309,6 +361,8 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="Ç"
+                android:clickable="true"
+                android:onClick="ProbarLletra"
                 android:textSize="40sp" />
         </TableRow>
 
@@ -316,12 +370,113 @@
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="149dp"
-        android:layout_height="115dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="136dp"
+        android:layout_height="97dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/arrowbutton" />
+
+    <LinearLayout
+        android:id="@+id/loParaula"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/penjatIV">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="119dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout">
+
+        <TextView
+            android:id="@+id/paraulaTV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="     Fallos:    "
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/fallosTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="4dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="321dp"
+            android:layout_height="319dp"
+            android:background="#FBFBFB">
+
+            <TextView
+                android:id="@+id/jugador_guyanyador"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:background="#000000"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:text="Guanyaador!!!!"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/guanyadortv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jugador"
+                android:textSize="48sp"
+                app:layout_constraintBottom_toTopOf="@+id/button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/jugador_guyanyador" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:backgroundTint="#000000"
+                android:text="Tornar a Jugar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
