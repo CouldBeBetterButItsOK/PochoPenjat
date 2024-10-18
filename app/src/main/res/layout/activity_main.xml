@@ -61,12 +61,12 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:hint="Nom del jugador"
             android:ems="10"
-            android:inputType="text"
-            android:hint="Nom del jugador"/>
+            android:inputType="text" />
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/loParaula"
+        android:id="@+id/paraulaLO"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
@@ -89,11 +89,9 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:ems="10"
             android:hint="*********"
-            android:inputType="text"
-            android:password="true"
-            android:text="Name" />
+            android:ems="10"
+            android:inputType="textPassword" />
     </LinearLayout>
 
     <LinearLayout
@@ -104,7 +102,7 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loParaula">
+        app:layout_constraintTop_toBottomOf="@+id/paraulaLO">
 
         <TextView
             android:id="@+id/pistaTV"
@@ -121,18 +119,19 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
+            android:onClick="sensepista"
             android:text="No"
             android:textSize="20dp"
-            />
+            app:checkedState="checked" />
 
         <CheckBox
             android:id="@+id/ambPistaCheckBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="20dp"
+            android:onClick="ambpista"
             android:text="Si"
-            />
+            android:textSize="20dp" />
 
 
     </LinearLayout>
@@ -143,9 +142,11 @@
         android:layout_height="70dp"
         android:layout_marginTop="480dp"
         android:backgroundTint="#020202"
+        android:onClick="acceptar"
         android:text="Acceptar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loPista" />
+        app:layout_constraintTop_toBottomOf="@+id/loPista"
+        android:visibility="invisible"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

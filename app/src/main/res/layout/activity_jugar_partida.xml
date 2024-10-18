@@ -9,7 +9,7 @@
     tools:context=".Jugar_Partida">
 
     <TextView
-        android:id="@+id/torn_jugador"
+        android:id="@+id/jugadorTV"
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:background="#000000"
@@ -33,9 +33,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/torn_jugador"
+        app:layout_constraintTop_toBottomOf="@+id/jugadorTV"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/penjat0" />
+        app:srcCompat="@drawable/penjat2" />
 
     <TableLayout
         android:id="@+id/tableLayout"
@@ -45,7 +45,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
+        app:layout_constraintBottom_toTopOf="@+id/nextTurnBT"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/penjatIV"
@@ -58,6 +58,7 @@
 
             <TextView
                 android:id="@+id/lletraA"
+                android:tag="A"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -69,6 +70,7 @@
 
             <TextView
                 android:id="@+id/lletraB"
+                android:tag="B"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -80,6 +82,7 @@
 
             <TextView
                 android:id="@+id/lletraC"
+                android:tag="C"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -91,6 +94,7 @@
 
             <TextView
                 android:id="@+id/lletraD"
+                android:tag="D"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -102,6 +106,7 @@
 
             <TextView
                 android:id="@+id/lletraE"
+                android:tag="E"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -113,6 +118,7 @@
 
             <TextView
                 android:id="@+id/lletraF"
+                android:tag="F"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -124,6 +130,7 @@
 
             <TextView
                 android:id="@+id/lletraG"
+                android:tag="G"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -135,6 +142,7 @@
 
             <TextView
                 android:id="@+id/lletraH"
+                android:tag="H"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -146,6 +154,7 @@
 
             <TextView
                 android:id="@+id/lletraI"
+                android:tag="I"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -163,6 +172,7 @@
 
             <TextView
                 android:id="@+id/lletraJ"
+                android:tag="J"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -174,6 +184,7 @@
 
             <TextView
                 android:id="@+id/lletraK"
+                android:tag="K"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -185,6 +196,7 @@
 
             <TextView
                 android:id="@+id/lletraL"
+                android:tag="L"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -196,6 +208,7 @@
 
             <TextView
                 android:id="@+id/lletraM"
+                android:tag="M"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -207,6 +220,7 @@
 
             <TextView
                 android:id="@+id/lletraN"
+                android:tag="N"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -218,6 +232,7 @@
 
             <TextView
                 android:id="@+id/lletraO"
+                android:tag="O"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -229,6 +244,7 @@
 
             <TextView
                 android:id="@+id/lletraP"
+                android:tag="P"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -240,6 +256,7 @@
 
             <TextView
                 android:id="@+id/lletraQ"
+                android:tag="Q"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -251,6 +268,7 @@
 
             <TextView
                 android:id="@+id/lletraR"
+                android:tag="R"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -268,6 +286,7 @@
 
             <TextView
                 android:id="@+id/lletraS"
+                android:tag="S"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -279,6 +298,7 @@
 
             <TextView
                 android:id="@+id/lletraT"
+                android:tag="T"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -290,6 +310,7 @@
 
             <TextView
                 android:id="@+id/lletraU"
+                android:tag="U"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -301,6 +322,7 @@
 
             <TextView
                 android:id="@+id/lletraV"
+                android:tag="V"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -312,6 +334,7 @@
 
             <TextView
                 android:id="@+id/lletraW"
+                android:tag="W"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -323,6 +346,7 @@
 
             <TextView
                 android:id="@+id/lletraX"
+                android:tag="X"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -334,6 +358,7 @@
 
             <TextView
                 android:id="@+id/lletraY"
+                android:tag="Y"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -345,6 +370,7 @@
 
             <TextView
                 android:id="@+id/lletraZ"
+                android:tag="Z"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -355,7 +381,8 @@
                 android:textSize="40sp" />
 
             <TextView
-                android:id="@+id/lletraCtrenc"
+                android:id="@+id/lletraÇ"
+                android:tag="Ç"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -369,7 +396,7 @@
     </TableLayout>
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/nextTurnBT"
         android:layout_width="136dp"
         android:layout_height="97dp"
         android:layout_marginEnd="24dp"
@@ -379,7 +406,7 @@
         app:srcCompat="@drawable/arrowbutton" />
 
     <LinearLayout
-        android:id="@+id/loParaula"
+        android:id="@+id/paraulaLO"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -397,7 +424,7 @@
         android:layout_marginEnd="32dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:layout_constraintEnd_toStartOf="@+id/nextTurnBT"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tableLayout">
 
@@ -420,6 +447,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/guanyadorLO"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#000000"
@@ -455,18 +483,18 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <TextView
-                android:id="@+id/guanyadortv"
+                android:id="@+id/guanyadorTV"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Jugador"
                 android:textSize="48sp"
-                app:layout_constraintBottom_toTopOf="@+id/button"
+                app:layout_constraintBottom_toTopOf="@+id/tornarAJugatBT"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/jugador_guyanyador" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/tornarAJugatBT"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="32dp"
